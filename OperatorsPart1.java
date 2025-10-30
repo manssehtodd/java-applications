@@ -23,12 +23,28 @@ public class OperatorsPart1 {
         int sum = num1 + num2;
         int product = num1 * num2;
         int minus = num1 - num2;
-        double divide = (double) num1 / num2;
+        double divide = (double)num1 / num2;
+		int modules = num1%num2;
 
         System.out.printf("Sum is %d%n", sum);
         System.out.printf("Product is %d%n", product);
         System.out.printf("The difference between num1 and num2 is %d%n", minus);
         System.out.printf("The division result is %.2f%n", divide);
-        System.out.println(name + sum);
+		System.out.printf("The output of divide is %f%n", divide);
+		System.out.printf("The output of modules is %d%n", modules);
+		
+		//Relational Operators
+		int firstNum = 12;
+		int secondNum = 15;
+		boolean isGreater = firstNum > secondNum;
+		boolean isLesser = firstNum < secondNum;
+		boolean isGraterThanOrEqualTo = firstNum >= secondNum;
+		boolean isLessThanOrEqualTo = firstNum <= secondNum;
+		
+		
+		System.out.printf("firstNum > secondNum? %b%n",isGreater);
+		System.out.printf("is firstNum < secondNum? %b%n", isLesser);
+		System.out.printf("is firstNum >= secondNum? %b%n", isGraterThanOrEqualTo);
+		System.out.printf("is firstNum <= secondNum? %b%n", isLessThanOrEqualTo);
     }
 }
