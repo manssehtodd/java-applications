@@ -4,10 +4,10 @@
 
 public class WhileLoop{
 		public static void main(String[] args){
-			int i = 0;
-			while(i != 10){
-				System.out.println("010");
-				i++;
+			int product = 1;
+			while(product <= 100){
+				System.out.println(product);
+				product = 3 * product;
 			}
 		}
-}
+}	
