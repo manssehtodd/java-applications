@@ -45,7 +45,7 @@ public class OperatorPart2{
 		
 		//Post-decrement unary operators
 		int num7 = 10;
-		int post2 = num7--;
+		int post2	 = num7--;
 		System.out.printf("%d%n",post);
 		System.out.printf("%d%n",num7);
 	}

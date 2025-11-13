@@ -11,6 +11,7 @@ public class  StaticMehtodWithReturnTypePara{
 		
 		String displayName = myName(name);
 		System.out.printf("Welcome to my doom %s%n",displayName);
+	
 		
 		int result = addition(12, 3, 5);
 		System.out.printf("The sum is %d%n",result);

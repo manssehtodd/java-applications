@@ -8,11 +8,6 @@ public class DoWhile{
 		do{
 			System.out.printf("This is a post test loop");
 			i++;
-	}while(i <= 0);
-	
-	/*while(i <= 0){
-		System.out.printf("This is a pre-test loop");
-		i++;
-	}*/
-}
+		}while(i <= 0);
+	}cvxcvcvxdf
 }
