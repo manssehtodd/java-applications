@@ -11,10 +11,10 @@ public class DrawPanel extends JPanel
 		super.paintComponent(g);
 		
 		int width = 100;
-		int height = 20;
+		int height = 100;
 		
 		g.drawLine(0, 0, width, height);
 		
-		g.drawLine(0 ,0, width, height);
+		g.drawLine(0 ,height, width, 0);
 	}
 }
